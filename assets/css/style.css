@@ -1,0 +1,19 @@
+::selection {
+    background: #1D587A;
+}
+
+body {
+    background: #080F16;
+    color: #CCC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color:#3A99D4;
+    transition: all 0.3s;
+    margin-top: 0.5rem;
+}
+a:hover {
+    color:#96BCE2;
+}

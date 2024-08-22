@@ -1,0 +1,49 @@
+{
+    "name": "PWA Boilerplate",
+    "short_name": "PWA Boilerplate",
+    "description": "A barebones template for building a Progressive Web Application using vanilla HTML, CSS and Javascript.",
+    "lang": "en-GB",
+    "start_url": ".",
+    "id" : "./",
+    "scope": "./",
+    "theme_color": "#000000",
+    "background_color": "#CCCCCC",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "icons": [
+        {
+          "src": "./assets/images/favicon.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+        },
+        {
+          "src": "./assets/images/favicon-256.png",
+          "sizes": "256x256",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "./assets/images/favicon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "maskable"
+        }
+      ],
+    "screenshots": [
+        {
+         "src": "./assets/images/screenshotwide.png",
+          "sizes": "1868x939",
+          "type": "image/png",
+          "form_factor": "wide",
+          "label": "Screenshot"
+        },
+        {
+          "src": "./assets/images/screenshotnarrow.png",
+           "sizes": "618x1373",
+           "type": "image/png",
+           "form_factor": "narrow",
+           "label": "Screenshot"
+         }
+    ]
+}
